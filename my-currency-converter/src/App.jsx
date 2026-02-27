@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { ZERO_DECIMAL_CURRENCIES } from "./constants/currencies";
-import { useExchangeRates } from "./hooks/useExchangeRates";
+import { useExchangeRates } from "./hooks/useExchangeRates";console.log(import.meta.env.VITE_EXCHANGE_API_KEY)
+
 
 import Header            from "./components/Header";
 import AmountInput       from "./components/AmountInput";
